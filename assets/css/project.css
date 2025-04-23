@@ -1,0 +1,80 @@
+/* Project-specific styles */
+.project-header {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.screenshot {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+body.project-page {
+    padding-top: 80px;
+}
+
+body.project-page section { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #f0f0f0;
+}
+
+body.project-page section:first-of-type {
+    margin-top: 40px;
+}
+
+body.project-page footer {
+    position: relative;
+    z-index: 10;
+}
+
+.project-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #dcdcdc;
+}
+
+h2#project-page {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.zoomable {
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+}
+
+.zoomable:hover {
+    transform: scale(1.5);
+    z-index: 1000;
+}
+
+
+.lb-close {
+    display: block !important;
+    opacity: 1 !important;
+    z-index: 9999;
+}
+.lb-close:hover {
+    color: #ffffff !important;
+    background-color: #ff0000 !important;
+    border-radius: 50%;
+    padding: 5px;
+}
+
